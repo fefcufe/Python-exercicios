@@ -1,3 +1,3 @@
 # Python-exercicios
-Programação em Python do básico ao avançado
+Programação em Python do básico ao avançado Udemy
 
