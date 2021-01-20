@@ -1,0 +1,4 @@
+G = float(input('Digite o ângulo em graus:'))
+R = (G * 3.14)/180
+
+print('O ângulo equivale a {:.2f}'.format (R), 'radianos.')
