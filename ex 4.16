@@ -1,0 +1,4 @@
+P = float(input('Digite o tamanho em polegadas:'))
+C = P * 2.54
+
+print('O valor em polegadas equivale a {:.2f}'.format (C), 'centímetros')
