@@ -1,0 +1,4 @@
+M = float(input('Digite um valor em metros cúbicos:'))
+L = 1000 * M
+
+print('O valor em metros cúbicos equivale a {:.2f}'.format(L), 'litros.')
