@@ -1,0 +1,3 @@
+ m = float(input('Digite a velocidade em m/s:'))
+M = m * 3.6
+print('Essa velocidade equivale a','{:.2f}'.format(M), 'Km/h.')
