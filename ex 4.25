@@ -1,0 +1,4 @@
+A = float(input('Digite o valor em acres:'))
+M = A * 4048.58
+
+print('O valor em acres equivale a {:.2f}'.format(M), 'metros quadrados.')
