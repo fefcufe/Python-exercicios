@@ -1,0 +1,4 @@
+K = float(input('Digite um valor de massa em kg:'))
+L = K/0.45
+
+print('O valor em kgs equivale a {:.2f}'.format(L), 'libras.')
