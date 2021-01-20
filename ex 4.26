@@ -1,0 +1,4 @@
+M = float(input('Digite a área em metros quadrados:'))
+H = M * 0.0001
+
+print('Essa área equivale a {:.2f}'.format(H), 'hectares.')
