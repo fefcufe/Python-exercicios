@@ -1,0 +1,4 @@
+M = float(input('Digite a distância em milhas:'))
+K = 1.61 * M
+
+print('Essa distância equivale a', '{:.2f}'.format(K), 'km.')
