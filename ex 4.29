@@ -1,0 +1,2 @@
+a,b,c,d = map(float,input('Digite quatro notas:').split())
+print('a média das notas é {:.3f}'.format(a + b + c+ d/4))
