@@ -1,0 +1,7 @@
+Salario liquido 
+
+dias = float(input('Digite quantos dias você trabalhou:'))
+sbruto = (30 * dias)
+sliquido = sbruto * 0.92
+
+print(f'Seu salário é {sliquido} reais.')
