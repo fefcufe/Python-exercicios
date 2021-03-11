@@ -1,0 +1,5 @@
+num = int(input('Digite um número inteiro:'))
+antecessorTriplo = num * 3 - 1
+sucessorDobro = num * 2 + 1
+
+print(antecessorTriplo + sucessorDobro)
