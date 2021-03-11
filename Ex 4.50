@@ -1,0 +1,6 @@
+Data de nascimento
+
+idade = int(input('Digite sua idade:'))
+anoAtual = int(input('Digite o ano atual:'))
+
+print(f'Seu ano de nascimento é {anoAtual - idade}.')
