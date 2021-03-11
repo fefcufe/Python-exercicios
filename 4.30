@@ -1,0 +1,6 @@
+Valor em dólares
+
+valorReal = float(input('Digite quantos reais deseja converter:'))
+valorDolar = valorReal * 5.60
+
+print(f'Esse valor equivale a {valorDolar} dolares.')
