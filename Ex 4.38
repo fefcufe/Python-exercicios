@@ -1,0 +1,6 @@
+Aumento salarial
+
+si = float(input('Digite seu salário:'))
+sf = si * 1.25
+
+print(f'Seu salário ficou {sf} reais.')
