@@ -1,0 +1,4 @@
+Letra maiuscula para letra minuscula 
+
+palavra = input('Digite uma palavra:')
+print(palavra.lower())
