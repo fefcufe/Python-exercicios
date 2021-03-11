@@ -1,0 +1,10 @@
+Convertendo em hora, minuto segundo 
+
+segundosTotal = int(input('Digite o tempo total em segundos:'))
+minutosTotal = segundosTotal // 60
+segundosFinal = segundosTotal % 60
+horas = minutosTotal // 60
+minutosFinal = minutosTotal % 60
+
+
+print(f'Esse tempo equivale a {horas} horas, {minutosFinal} minutos e {segundosFinal}')
