@@ -1,0 +1,6 @@
+Valor com desconto 
+
+valorProduto = float(input('Digite o valor do produto:'))
+valorFinal = valorProduto * 0.88
+
+print(f'O valor com desconto é de {valorFinal} reais.')
