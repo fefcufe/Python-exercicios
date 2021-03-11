@@ -1,0 +1,8 @@
+Volume cilindro
+
+r = int(input('Digite o raio do cilindro:'))
+h = int(input('Digite a altura do cilindro:'))
+pi = 3.141592
+volume = pi * (r**2) * h
+
+print(f'O volume do cilindro é {volume}m³.')
