@@ -1,0 +1,8 @@
+Altura degrau
+
+hdegrau = float(input('Digite a altura do degrau da escada:'))
+altura = float(input('Digite a altura que você deseja alcançar:'))
+
+qdegraus = altura/hdegrau
+
+print(f'Você deve subir {qdegraus} degraus para atingir seu objetivo.')
