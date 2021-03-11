@@ -1,0 +1,6 @@
+Salario com bonus e desconto
+
+sbase = float(input('Digite seu salário:'))
+sliquido = sbase * 0.98
+
+print(f'Seu salário líquido é de {sliquido} reais.')
