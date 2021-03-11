@@ -1,0 +1,9 @@
+REFAZER 
+
+horaInicial, minutoInicial, segundoInicial = map(int(input('Digite a hora da operação com minutos e segundos:'))).split()
+duracao = int(input('Digite a duração, em segundos, do experimento:')
+
+
+horaFinal = horaInicial += duracao//3600
+minutoFinal = minutoInicial += duracao %
+segundoFinal = minutoFinal % 60
