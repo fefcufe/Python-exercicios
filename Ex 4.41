@@ -1,0 +1,8 @@
+Salario liquido e valor hora
+
+valorHora = float(input('Quanto vale a hora de trabalho na sua empresa em reais?'))
+horas = int(input('Quantas horas você trabalhou esse mês?'))
+salarioBruto = valorHora * horas
+salarioLiquido = salarioBruto * 1.10
+
+print(f'O seu salário equivale a {salarioLiquido} reais.')
