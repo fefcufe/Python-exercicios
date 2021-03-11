@@ -1,0 +1,10 @@
+Aplicativo vendedor
+
+totalCliente = float(input('Digite o valor total da compra:'))
+parcelas = totalCliente/3
+comissaoParcelado = 0.05 * totalCliente
+comissaoAvista = 0.05 * (totalCliente * 0.9)
+
+print(f"""O valor total da compra é de {totalCliente}. 
+Pagando à vista, esse valor passa a ser {totalCliente * 0.9} e a comissão é de {comissaoAvista}. 
+Caso o cliente deseje parcelar a compra, o valor é de 3 parcelas de {parcelas} e a comissão do vendedor é de {comissaoParcelado}.""")
