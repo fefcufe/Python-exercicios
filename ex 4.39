@@ -1,0 +1,4 @@
+Premio jogadores 
+
+total = 780000
+print(f'O valor para o primeiro ganhador é de {0.48 * total} reais, o do segundo jogador é de {0.32 * total} reais e o do terceiro é de {0.2*total} reais.')
