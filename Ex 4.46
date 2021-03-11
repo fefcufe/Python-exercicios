@@ -1,0 +1,4 @@
+Inverter string
+
+num = (input('Digite um número inteiro de 100 a 999:'))
+print(num[::-1])
