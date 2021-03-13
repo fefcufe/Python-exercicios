@@ -1,0 +1,8 @@
+hora, minuto, segundo = map(int, input('Digite o tempo de início com horas, minutos e segundos:').split())
+duracao = int(input('Digite a duracao da operação:'))
+
+acrescimo_hora = duracao // 3600
+acrescimo_minuto = (duracao % 3600) // 60
+acrescimo_segundo = (duracao % 3600) % 60
+
+print(f'A duracao da operação é de {duracao} segundos, portanto esse processo será encerrado às {hora + acrescimo_hora}:{minuto + acrescimo_minuto}:{segundo + acrescimo_segundo}.')
