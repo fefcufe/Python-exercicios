@@ -1,0 +1,6 @@
+REFAZER
+premio, a, b, c = map(float, (input('Digite o valor do prêmio e, em seguida, quanto cada investidor investiu:').split()))
+k = (a+b+c)/premio
+
+print(f'O investidor que investiu {a} reais deve receber {a * k} reais, o investidor \n'
+      f'que investiu {b} \n deve receber {b * k} reais e o investidor que investiu {c} deve receber {c * k} reais.')
