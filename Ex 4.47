@@ -1,0 +1,2 @@
+num = int(input('Digite um número inteiro com quatro dígitos entre 1000 e 9999:'))
+print (f'{num//1000 % 10} \n {num // 100 % 10} \n {num // 10 % 10} \n {num % 10}')
