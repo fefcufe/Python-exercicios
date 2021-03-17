@@ -1,0 +1,17 @@
+notaLab, notaSemestral, notaFinal = map(float, input('Digite as suas notas:').split())
+
+notaFLAB = 0
+notaFSEMESTRAL = 0
+notaFFINAL = 0
+if 0 <= notaLab <= 10:
+    notaFLAB += notaLab * 2
+elif 0 <= notaSemestral <= 10:
+    notaFSEMESTRAL += notaSemestral * 3
+elif 0 <= notaFinal <= 10:
+    notaFFINAL += notaFinal * 5
+else:
+    print('Alguma das suas notas é inválida. Tente novamente.')
+
+media = (notaFLAB + notaFFINAL + notaFSEMESTRAL)/10
+
+print(f'Sua média final é {media}.')
