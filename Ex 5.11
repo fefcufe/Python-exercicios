@@ -1,0 +1,6 @@
+num = int(input('Digite um número inteiro:'))
+
+if num < 0:
+    print('Número inválido.')
+else:
+    print((num % 10) + (num // 10 % 10) + (num // 100 % 10))
