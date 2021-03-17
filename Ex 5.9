@@ -1,0 +1,6 @@
+salario, prestacao = map(float, input('Digite seu salário e o valor da prestação do empréstimo desejado:').split())
+
+if prestacao > 0.2 * salario:
+    print('Empréstimo não concedido.')
+else:
+    print('Empréstimo concedido.')
