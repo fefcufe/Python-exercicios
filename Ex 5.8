@@ -6,3 +6,11 @@ elif nota2 < 0 or nota2 > 10:
     print('Notas inválidas.')
 else:
     print(f'Nota final:{(nota1+nota2)/2}')
+  
+  OU
+  
+nota1, nota2 = map(float, input('Digite suas duas notas:').split())
+if 0 <= nota1 <= 10 and 0 <= nota2 <= 10:
+    print(f'A sua média é {(nota1 + nota2)/2}.')
+else:
+    print('Uma das notas ou ambas é inválida.')
