@@ -5,3 +5,11 @@ if sexo.upper() == 'FEMININO' or sexo.upper() == 'F':
     print((62.1*h)-44.7)
 else:
     print((72.7*h)-58)
+    
+OU
+
+sexo, h = map(str, input('Digite seu sexo e sua altura:').split())
+if sexo == 'feminino':
+    print(f'Seu peso ideal é {62.1 * float(h) - 44.7} kgs.')
+else:
+    print(f'Seu peso ideal é {72.7 * float(h) - 58} kgs.')
