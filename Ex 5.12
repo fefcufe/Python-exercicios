@@ -5,3 +5,12 @@ if num < 0:
     print('Número inválido.')
 else:
     print(f'Log de {num} = {log(num)}')
+    
+    OU
+    
+    import math
+num = int(input('Digite um número inteiro:'))
+if num > 0:
+    print(f'{math.log(num)}')
+else:
+    print('Número inválido.')
