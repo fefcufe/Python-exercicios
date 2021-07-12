@@ -1,7 +1,7 @@
-from math import log
-num = int(input('Digite um número inteiro:'))
+nota1, nota2, nota3 = map(float, input('Digite suas notas:').split())
+mediaFinal = (nota1 + nota2 + nota3 * 2)/4
 
-if num < 0:
-    print('Número inválido.')
+if mediaFinal > 60:
+    print(f'Sua nota final é {mediaFinal} e você está aprovado.')
 else:
-    print(f'Log de {num} = {log(num)}')
+    print(f'Sua nota final é {mediaFinal} e você está reprovado.')
