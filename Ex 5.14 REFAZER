@@ -1,17 +1,10 @@
-notaLab, notaSemestral, notaFinal = map(float, input('Digite as suas notas:').split())
-
-notaFLAB = 0
-notaFSEMESTRAL = 0
-notaFFINAL = 0
-if 0 <= notaLab <= 10:
-    notaFLAB += notaLab * 2
-elif 0 <= notaSemestral <= 10:
-    notaFSEMESTRAL += notaSemestral * 3
-elif 0 <= notaFinal <= 10:
-    notaFFINAL += notaFinal * 5
+nota1, nota2, nota3 = map(float, input('Digite suas três notas:').split())
+mediaFinal = (nota1 * 2 + nota2 * 3 + nota3 * 5)/10
+if 0 <= mediaFinal <= 2.9:
+    print(f'Sua nota final é {mediaFinal} e você está reprovado.')
+elif 3 <= mediaFinal <= 4.9:
+    print(f'Sua nota final é {mediaFinal} e você está em recuperação.')
+elif nota1 < 0 or nota2 < 0 or nota3 < 0 or nota1 > 10 or nota2 > 10 or nota3 > 10:
+    print(f'Notas inválidas.')
 else:
-    print('Alguma das suas notas é inválida. Tente novamente.')
-
-media = (notaFLAB + notaFFINAL + notaFSEMESTRAL)/10
-
-print(f'Sua média final é {media}.')
+    print(f'Sua nota final é {mediaFinal} e você está aprovado.')
