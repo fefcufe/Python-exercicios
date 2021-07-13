@@ -1,0 +1,9 @@
+B, b, h = map(float, input('Digite a base maior, abase menor e a altura do trapézio, respectivamente:').split())
+area = ((B + b)*h)/2
+
+if B <= 0 or b <= 0 or h <= 0:
+    print('Medidas incorretas.Tente valores maiores do que zero.')
+elif B < b:
+    print('A base maior deve ser maior do que a base menor.')
+else:
+    print(f'A área do trapézio mencionado é {area}.')
