@@ -1,4 +1,19 @@
-M = float(input('Digite um valor em metros cúbicos:'))
-L = 1000 * M
-
-print('O valor em metros cúbicos equivale a {:.2f}'.format(L), 'litros.')
+operador = int(input('Qual das operações deseja realizar?\n 1. Adição\n 2. Subtração\n 3. Multiplicação\n 4. Divisão\n'))
+num1, num2 = map(int, input('Agora, digite os dois números que deseja utilizar na operação:').split())
+if not 0 < operador < 4:
+    print('Opção inválida! Por favor escolha um valor dentre as opções.')
+elif operador == 4 and num2 == 0:
+        print('Resultado inválido, não existe divisão por zero!')
+else:
+    if operador == 1:
+        res = num1 + num2
+        print(f'O resultado da operação é {res}')
+    elif operador == 2:
+        res = num1 - num2
+        print(f'O resultado da operação é {res}')
+    elif operador == 3:
+        res = num1 * num2
+        print(f'O resultado da operação é {res}')
+    else:
+        res = num1 / num2
+        print(f'O resultaod da operação é {res}')
